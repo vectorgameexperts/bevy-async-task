@@ -7,7 +7,7 @@ edition = "2021"
 
 [dependencies]
 futures = "0.3"
-bevy = { git = "https://github.com/bevyengine/bevy.git", rev = "3d752105644a18fb1dd1220d6f15e0a7eb49f04a", default-features = false }
+bevy = { version="0.11.0", default-features = false }
 
 [dev-dependencies]
 async-std = "1.12"
